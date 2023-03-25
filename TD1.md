@@ -1,6 +1,6 @@
 # TD1/9: Use basic Linux commands
 
-## Exercise 1: Move around
+# Exercise 1: Move around
 
 ## 1. Go to the root directory
 cd /
@@ -38,3 +38,36 @@ cd test
 ## 12. Check your current location 
 pwd
 
+
+# Exercise 2: Create, Rename, copy, delete
+
+## 1. Go to your home directory (should be named after you, you might be there by default)
+cd ~
+
+## 2. Check your current location
+pwd
+
+## 3. Create a folder linux_ex_1
+mkdir linux_ex_1
+
+## 4. Go into this folder
+cd linux_ex_1
+
+## 5. Create an empty text file named james_gnansia.txt 
+touch james_gnansia.txt
+
+## 6. Create a folder notes
+mkdir notes
+
+## 7. Move your text file into this folder
+mv james_gnansia.txt notes/
+
+## 8. Rename the text file by appending the current year james_gnansia_2023.txt
+current_year=$(date +"%Y")
+mv notes/james_gnansia.txt notes/james_gnansia_$current_year.txt
+
+## 9. Make a copy of this folder, name it notes_2022
+cp -r notes notes_2022
+
+## 10. Delete the first folder (notes) using the verbose option
+rm -rv notes

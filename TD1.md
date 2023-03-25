@@ -1,7 +1,7 @@
 # Exercice 1 :  Clone a Git repository
 
 ## 3. Using only command-line in your Linux shell, clone it to a local repository.
-```
+
 # 1. Go to the root directory
 cd /
 
@@ -37,4 +37,4 @@ cd test
 
 # 12. Check your current location 
 pwd
-```
+

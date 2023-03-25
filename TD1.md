@@ -37,3 +37,4 @@ cd test
 
 # 12. Check your current location 
 pwd
+```

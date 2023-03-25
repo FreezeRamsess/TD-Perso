@@ -1,23 +1,5 @@
 ## TD8/9: Linux, Git and Python
-
-# Using only command-line in your Linux shell,
-# 1. Create an empty working directory called “td4”.
-# "2. Initialize a Git repository in it.
-# 3. Install the Linux python3-pip package using your Linux package manager.
-# 4. Install the VirtualEnv Python package using pip3.
-# 5. Create a Python virtual environment called “.env”.
-# Do you see the change in your working directory ?
-# 6. Activate your virtual environment.
-# Do you see the change in your prompt ?
-# 7. List the Python packages installed in your virtual environment.
-# 8. Does Git want you to commit something ?
-# Do you think it is a good thing ?
-# 9. Create a .gitignore file to tell Git which files should be untracked.
-# 10. Does Git want you to commit something ?
-# Do you think it is a good thing this time ?
-# 11. Do your first commit and check that Git is happy now.
-
-# Exercise 1: Working Directory
+## Exercise 1: Working Directory
 
 # 1. Create an empty working directory called `td4`.
 mkdir td4

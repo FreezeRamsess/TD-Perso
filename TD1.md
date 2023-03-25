@@ -2,56 +2,38 @@
 
 ## 3. Using only command-line in your Linux shell, clone it to a local repository.
 ```
-git clone https://github.com/Lindaa25/TD7_GitBranches.git
-```
-Exercise 1: Move around
-Go to the root directory
-{bash}
-Copy code
+# 1. Go to the root directory
 cd /
-Display the content of the current (root) directory
-{bash}
-Copy code
+
+# 2. Display the content of the current (root) directory
 ls
-Check your current location
-{bash}
-Copy code
+
+# 3. Check your current location
 pwd
-Try to create a directory named test
-{bash}
-Copy code
+
+# 4. Try to create a directory named test
 mkdir test
-Go to the general home directory (should contain folders named after each user)
-{bash}
-Copy code
+
+# 5. Go to the general home directory (should contain folders named after each user)
 cd /home
-Go to your home directory
-{bash}
-Copy code
+
+# 6. Go to your home directory
 cd ~
-Go back to the general home directory (located "just above")
-{bash}
-Copy code
+
+# 7. Go back to the general home directory (located "just above")
 cd ..
-Go again "just above", you should be back to the root directory
-{bash}
-Copy code
+
+# 8. Go again "just above", you should be back to the root directory
 cd ..
-cd ..
-cd /
-Go directly to your home directory (named after you). It should be a very simple command, which take no name as parameter of the path
-{bash}
-Copy code
+
+# 9. Go directly to your home directory (named after you). It should be a very simple command, which take no name as parameter of the path
 cd
-Try to create a directory named test
-{bash}
-Copy code
+
+# 10. Try to create a directory named test
 mkdir test
-Go into this new directory
-{bash}
-Copy code
+
+# 11. Go into this new directory
 cd test
-Check your current location
-{bash}
-Copy code
+
+# 12. Check your current location 
 pwd

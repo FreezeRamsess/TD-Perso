@@ -37,7 +37,7 @@ Answer: No, Git does not want me to commit anything yet. It's a good thing to wa
 nano .gitignore
 
 # Do you think it is a good thing?
-Answer: Yes, it's a good thing this to prevent Git from tracking certain files.
+Answer: Yes, it's a good thing because it can prevent Git from tracking certain files.
 
 # 10. Does Git want you to commit something?
 # Do you think it is a good thing this time?

@@ -70,3 +70,23 @@ cp -r notes notes_2022
 
 ## 10. Delete the first folder (notes) using the verbose option
 rm -rv notes
+
+# Exercise 3: Create and run a script
+## 1. Create a script script_1.sh in the folder linux_ex_1
+cd ~/linux_ex_1
+touch script_1.sh
+chmod +x script_1.sh
+
+## 2. In the script, write the commands that would output the following:
+##    Script running please wait ...
+##    Done.
+echo "Script running please wait ..."
+echo "Done."
+
+## 3. Quit editing and save the script
+
+## 4. Display the content of the script (using a command, not from an editor)
+cat script_1.sh
+
+## 5. Run the script
+./script_1.sh

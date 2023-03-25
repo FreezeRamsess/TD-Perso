@@ -63,8 +63,7 @@ mkdir notes
 mv james_gnansia.txt notes/
 
 ## 8. Rename the text file by appending the current year james_gnansia_2023.txt
-current_year=$(date +"%Y")
-mv notes/james_gnansia.txt notes/james_gnansia_$current_year.txt
+mv notes/james_gnansia.txt notes/james_gnansia_2023.txt
 
 ## 9. Make a copy of this folder, name it notes_2022
 cp -r notes notes_2022
